@@ -18,7 +18,6 @@ class DuanziSpider(scrapy.Spider):
     def parse(self, response):
         """
         解析源码，获取其中的数据
-        获取下一页链接，再解析源码
         :param response: 
         :return: 
         """
